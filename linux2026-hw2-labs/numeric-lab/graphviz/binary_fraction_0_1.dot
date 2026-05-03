@@ -1,0 +1,16 @@
+digraph binary_fraction_0_1 {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled", fillcolor="#f3efe4", color="#50463a", fontname="Helvetica"];
+  edge [color="#6a6256"];
+
+  start [label="Start with decimal fraction 0.1"];
+  mul1 [label="0.1 x 2 = 0.2\ninteger bit 0\nremainder 0.2"];
+  mul2 [label="0.2 x 2 = 0.4\ninteger bit 0\nremainder 0.4"];
+  mul3 [label="0.4 x 2 = 0.8\ninteger bit 0\nremainder 0.8"];
+  mul4 [label="0.8 x 2 = 1.6\ninteger bit 1\nremainder 0.6"];
+  mul5 [label="0.6 x 2 = 1.2\ninteger bit 1\nremainder 0.2"];
+  loop [label="Remainder 0.2 repeats\npattern continues as 0011...", shape=ellipse, fillcolor="#e6f0d8"];
+
+  start -> mul1 -> mul2 -> mul3 -> mul4 -> mul5 -> loop;
+  loop -> mul2 [label="repeat"];
+}

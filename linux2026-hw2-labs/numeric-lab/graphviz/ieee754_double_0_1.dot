@@ -1,0 +1,12 @@
+digraph ieee754_double_0_1 {
+  rankdir=LR;
+  node [shape=record, style="filled", fontname="Helvetica", color="#403c38"];
+
+  bits [label="{ sign | exponent | fraction }|{ 1 bit | 11 bits | 52 bits }|{ 0 | 01111111011 | 1001100110011001100110011001100110011001100110011010 }",
+        fillcolor="#f7f3ea"];
+  value [label="0.1 double\nhex = 0x3fb999999999999a", shape=box, fillcolor="#dbe9f4"];
+  note [label="Rounded binary approximation\nbecause 0.1 is non-terminating in base 2", shape=box, fillcolor="#e4f1d8"];
+
+  value -> bits;
+  bits -> note;
+}

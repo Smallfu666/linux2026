@@ -1,0 +1,16 @@
+struct kobject_like: sizeof=16 alignof=8
+struct device_like:  sizeof=32 alignof=8
+struct pci_dev_like: sizeof=48 alignof=8
+offsetof(device_like, kobj)=8
+offsetof(pci_dev_like, dev)=8
+offsetof(pci_dev_like, dev.kobj)=16
+
+pci_dev_like @ 0x16afd6c20
+device_like  @ 0x16afd6c28
+kobject_like @ 0x16afd6c30
+recovered device_like  @ 0x16afd6c28
+recovered pci_dev_like @ 0x16afd6c20
+
+vendor_id=0x8086 device_id=0x100e driver=e1000-demo
+kobject name=0000:00:03.0 refcount=2
+recovery_ok=yes

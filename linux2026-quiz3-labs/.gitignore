@@ -1,0 +1,12 @@
+*.o
+*.out
+*.csv
+*.png
+*.dot
+*.txt
+*.log
+*.dSYM/
+build/
+out/
+generated/
+artifacts/

@@ -1,0 +1,2 @@
+Run on Linux x86_64:
+perf stat -e cycles,instructions,cache-references,cache-misses,branches,branch-misses ./bench --type=btree16 --key-count 100000 --lookups 1000000 --reps 5 --csv

@@ -1,0 +1,5 @@
+pattern,dispatch,program_len,steps,rep,elapsed_ns,checksum
+predictable,switch,2048,8192,0,51833,92982
+predictable,computed,2048,8192,0,52208,92982
+random,switch,2048,8192,0,48916,2300883851
+random,computed,2048,8192,0,48292,2300883851
