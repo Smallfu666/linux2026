@@ -55,3 +55,12 @@ dot -Tpng graphviz/ieee754_double_0_1.dot -o results/ieee754_double_0_1.png
 - These programs show concrete machine behavior on this host; they do not replace reading the C standard or IEEE-754 text.
 - The `dot` files are included even if Graphviz is not installed locally.
 - Sample outputs in `results/` are illustrative and should be regenerated on the machine used for your writeup.
+
+## WSL/Linux Validation
+
+Validated on 2026-05-04 in WSL2 Linux x86_64 with `gcc 13.3.0`:
+
+- `make clean && make` passed
+- `./ieee754_decode` and `./fp_assoc` passed
+- `python3 binary_fraction.py`, `python3 radix_economy.py`, and `python3 balanced_ternary.py` were regenerated into `results/`
+- `dot` is not installed in this WSL image, so Graphviz rendering of the `.dot` files was not validated here

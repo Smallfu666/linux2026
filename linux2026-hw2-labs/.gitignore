@@ -1,0 +1,7 @@
+# Build outputs
+**/bench
+**/fp_assoc
+**/ieee754_decode
+**/build/
+**/__pycache__/
+**/*.dSYM/

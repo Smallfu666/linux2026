@@ -139,6 +139,17 @@ ALGORITHM=fast_slow ALLOC_MODE=shuffle NODES=1000000 ./scripts/run_perf_record.s
 
 For `perf c2c`, run a workload that meaningfully shares cache lines and invoke `perf c2c` manually on a Linux host that supports it.
 
+## WSL/Linux Validation
+
+Validated on 2026-05-04 in WSL2 Linux x86_64 with `gcc 13.3.0`:
+
+- `make clean && make` passed
+- `./bench --algorithm all --alloc all --n 1000 --reps 1 --csv --header` passed
+- `./scripts/run_bench_matrix.sh` regenerated `results/local_elapsed.csv`
+- `perf` is not installed in this WSL image, so the `perf`-based scripts are currently blocked here
+
+The `perf` scripts remain part of the lab because they are expected to run on a GNU/Linux host with `perf` available.
+
 ## Interpreting Cache Metrics
 
 Common derived ratios:
