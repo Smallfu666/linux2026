@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   3362	    672	8388672	8392706	 801002	results/memory/memory_layout_test

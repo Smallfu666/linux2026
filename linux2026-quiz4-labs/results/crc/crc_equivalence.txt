@@ -1,0 +1,6 @@
+all_match=true
+tested_states=10003
+tested_bytes=2560768
+nibble_table_bytes=64
+byte_table_bytes=1024
+first_mismatch_if_any=none

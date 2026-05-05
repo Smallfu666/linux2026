@@ -1,0 +1,25 @@
+global_static_addr=0x5eddb5035060
+global_static_bytes=4194304
+5eddb5031000-5eddb5032000 r--p 00000000 08:30 639338                     /home/wsl/linux2026/linux2026-quiz4-labs/results/memory/memory_layout_test
+5eddb5032000-5eddb5033000 r-xp 00001000 08:30 639338                     /home/wsl/linux2026/linux2026-quiz4-labs/results/memory/memory_layout_test
+5eddb5033000-5eddb5034000 r--p 00002000 08:30 639338                     /home/wsl/linux2026/linux2026-quiz4-labs/results/memory/memory_layout_test
+5eddb5034000-5eddb5035000 r--p 00002000 08:30 639338                     /home/wsl/linux2026/linux2026-quiz4-labs/results/memory/memory_layout_test
+5eddb5035000-5eddb5036000 rw-p 00003000 08:30 639338                     /home/wsl/linux2026/linux2026-quiz4-labs/results/memory/memory_layout_test
+5eddb5036000-5eddb5836000 rw-p 00000000 00:00 0 
+5edde9f4c000-5edde9f6d000 rw-p 00000000 00:00 0                          [heap]
+7f8d7a000000-7f8d7a028000 r--p 00000000 08:30 179029                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f8d7a028000-7f8d7a1b0000 r-xp 00028000 08:30 179029                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f8d7a1b0000-7f8d7a1ff000 r--p 001b0000 08:30 179029                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f8d7a1ff000-7f8d7a203000 r--p 001fe000 08:30 179029                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f8d7a203000-7f8d7a205000 rw-p 00202000 08:30 179029                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f8d7a205000-7f8d7a212000 rw-p 00000000 00:00 0 
+7f8d7a3e8000-7f8d7a3eb000 rw-p 00000000 00:00 0 
+7f8d7a3f6000-7f8d7a3f8000 rw-p 00000000 00:00 0 
+7f8d7a3f8000-7f8d7a3f9000 r--p 00000000 08:30 179026                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f8d7a3f9000-7f8d7a424000 r-xp 00001000 08:30 179026                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f8d7a424000-7f8d7a42e000 r--p 0002c000 08:30 179026                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f8d7a42e000-7f8d7a430000 r--p 00036000 08:30 179026                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f8d7a430000-7f8d7a432000 rw-p 00038000 08:30 179026                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffc74ef5000-7ffc74f16000 rw-p 00000000 00:00 0                          [stack]
+7ffc74fb4000-7ffc74fb8000 r--p 00000000 00:00 0                          [vvar]
+7ffc74fb8000-7ffc74fba000 r-xp 00000000 00:00 0                          [vdso]

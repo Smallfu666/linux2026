@@ -1,0 +1,20 @@
+case=normal_v_0 safe_result=0
+case=normal_v_0 original_result=0
+case=normal_v_0 child_exit=0 child_signal=0 bits=1
+case=normal_v_1 safe_result=1
+case=normal_v_1 original_result=1
+case=normal_v_1 child_exit=0 child_signal=0 bits=010
+case=normal_v_15 safe_result=15
+case=normal_v_15 original_result=15
+case=normal_v_15 child_exit=0 child_signal=0 bits=000010000
+case=long_prefix_31 safe_result=-1
+ub_tests/decode_unsigned_safe_test.c:36:16: runtime error: left shift of 2147483647 by 1 places cannot be represented in type 'int'
+case=long_prefix_31 original_result=-2
+case=long_prefix_31 child_exit=0 child_signal=0 bits=00000000000000000000000000000001
+case=long_prefix_64 safe_result=-2
+ub_tests/decode_unsigned_safe_test.c:36:16: runtime error: left shift of 2147483647 by 1 places cannot be represented in type 'int'
+case=long_prefix_64 original_result=-2
+case=long_prefix_64 child_exit=0 child_signal=0 bits=00000000000000000000000000000000000000000000000000000000000000001
+case=eof_before_terminator safe_result=-1
+case=eof_before_terminator original_result=14
+case=eof_before_terminator child_exit=0 child_signal=0 bits=000

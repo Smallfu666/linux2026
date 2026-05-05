@@ -1,0 +1,4 @@
+global_static_addr=0x6458f93de060
+global_static_bytes=4194304
+stack_tmp_addr=0x7ffea85170d0
+stack_tmp_value=1

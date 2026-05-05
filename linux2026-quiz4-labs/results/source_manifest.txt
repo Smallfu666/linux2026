@@ -1,0 +1,1 @@
+source_url=https://gist.github.com/jserv/221efc83f7b60b996dcf9c8b435980d5/raw/amei.c source_state=verified_against_expected_upstream sha256=300cf588f5532c896bcf56deee62ee32a617cbc850a671956cbf0e65ea9ffb36 expected_sha256=300cf588f5532c896bcf56deee62ee32a617cbc850a671956cbf0e65ea9ffb36 bytes=7807

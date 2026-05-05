@@ -1,0 +1,11 @@
+metric,value,unit,note
+compressed_bytes,776,bytes,embedded bitstream length
+image_width,128,px,decoded width
+image_height,128,px,decoded height
+pixels,16384,px,total decoded pixels
+bits_per_pixel,0.37890625,bits/pixel,compressed_bytes*8/(width*height)
+decoded_y_variance,6091.43611358,unitless,from post-filter decoded plane
+decoded_cg_variance,19.64110988,unitless,from post-filter decoded plane
+decoded_co_variance,554.17757474,unitless,from post-filter decoded plane
+residual_coeff_variance_if_available,16475.19649379,unitless,coefficient-domain variance estimate
+nonzero_coeff_ratio,1.00000000,ratio,nonzero_coeffs/total_coeffs

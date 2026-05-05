@@ -1,0 +1,2 @@
+56017d038fe79ffe49ecd60db5c7b1c433b14b3cb7d0958e05bddb9f80dc021a  results/compression/amei_original.png
+56017d038fe79ffe49ecd60db5c7b1c433b14b3cb7d0958e05bddb9f80dc021a  results/compression/amei_instrumented.png

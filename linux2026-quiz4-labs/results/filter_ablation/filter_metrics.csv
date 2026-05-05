@@ -1,0 +1,5 @@
+variant,mean_abs_diff_vs_full,max_abs_diff_vs_full,boundary_mean_abs_diff
+amei_full.png,0.000000,0,0.000000
+amei_none.png,5.438822,118,3.030754
+amei_deblock_only.png,0.982239,8,0.881614
+amei_bilateral_only.png,5.091614,117,2.485450

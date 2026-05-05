@@ -1,0 +1,59 @@
+=== O0 ===
+case=near_intmax_small_obs safe_result=715827886
+case=near_intmax_small_obs safe_result=715827886
+ub_tests/split_overflow_ub.c:8:18: runtime error: signed integer overflow: 2147483643 * 2147483646 cannot be represented in type 'int'
+case=near_intmax_small_obs original_result=-715827879
+ub_tests/split_overflow_ub.c:8:18: runtime error: signed integer overflow: 2147483643 * 2147483646 cannot be represented in type 'int'
+case=near_intmax_small_obs original_result=-715827879
+case=near_intmax_small_obs child_exit=0 child_signal=0
+case=near_intmax_small_obs child_exit=0 child_signal=0
+case=near_intmax_mid_obs safe_result=-1389548243
+case=near_intmax_mid_obs safe_result=-1389548243
+ub_tests/split_overflow_ub.c:8:18: runtime error: signed integer overflow: 2147483646 * 2147483647 cannot be represented in type 'int'
+ub_tests/split_overflow_ub.c:8:18: runtime error: signed integer overflow: 2147483646 * 2147483647 cannot be represented in type 'int'
+case=near_intmax_mid_obs original_result=-126322567
+case=near_intmax_mid_obs original_result=-126322567
+case=near_intmax_mid_obs child_exit=0 child_signal=0
+case=near_intmax_mid_obs child_exit=0 child_signal=0
+case=realistic safe_result=608
+case=realistic safe_result=608
+case=realistic original_result=608
+case=realistic original_result=608
+case=realistic child_exit=0 child_signal=0
+case=realistic child_exit=0 child_signal=0
+case=zeroish safe_result=8
+case=zeroish original_result=8
+case=zeroish safe_result=8
+case=zeroish original_result=8
+case=zeroish child_exit=0 child_signal=0
+case=zeroish child_exit=0 child_signal=0
+=== O2 ===
+=== O2 ===
+case=near_intmax_small_obs safe_result=715827886
+case=near_intmax_small_obs safe_result=715827886
+ub_tests/split_overflow_ub.c:8:18: runtime error: signed integer overflow: 2147483643 * 2147483646 cannot be represented in type 'int'
+ub_tests/split_overflow_ub.c:8:18: runtime error: signed integer overflow: 2147483643 * 2147483646 cannot be represented in type 'int'
+case=near_intmax_small_obs original_result=-715827879
+case=near_intmax_small_obs original_result=-715827879
+case=near_intmax_small_obs child_exit=0 child_signal=0
+case=near_intmax_small_obs child_exit=0 child_signal=0
+case=near_intmax_mid_obs safe_result=-1389548243
+case=near_intmax_mid_obs safe_result=-1389548243
+ub_tests/split_overflow_ub.c:8:18: runtime error: signed integer overflow: 2147483646 * 2147483647 cannot be represented in type 'int'
+case=near_intmax_mid_obs original_result=-126322567
+ub_tests/split_overflow_ub.c:8:18: runtime error: signed integer overflow: 2147483646 * 2147483647 cannot be represented in type 'int'
+case=near_intmax_mid_obs original_result=-126322567
+case=near_intmax_mid_obs child_exit=0 child_signal=0
+case=near_intmax_mid_obs child_exit=0 child_signal=0
+case=realistic safe_result=608
+case=realistic original_result=608
+case=realistic safe_result=608
+case=realistic original_result=608
+case=realistic child_exit=0 child_signal=0
+case=realistic child_exit=0 child_signal=0
+case=zeroish safe_result=8
+case=zeroish original_result=8
+case=zeroish safe_result=8
+case=zeroish original_result=8
+case=zeroish child_exit=0 child_signal=0
+case=zeroish child_exit=0 child_signal=0

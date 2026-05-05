@@ -1,0 +1,7 @@
+max_abs_error=327
+rmse=171.610979
+mismatch_count=126
+recursive_dct_coef_0=1024
+recursive_dct_coef_1=1446
+reference_dct_coef_0=1024
+reference_dct_coef_1=1446

@@ -1,0 +1,4 @@
+# Build outputs
+__pycache__/
+*.pyc
+*.dSYM/

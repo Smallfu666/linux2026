@@ -1,0 +1,5 @@
+initial_x=-1 result=0 final_x=0 eval_count=1 interpretation=macro_re_evaluated_operand
+initial_x=0 result=2 final_x=3 eval_count=3 interpretation=macro_re_evaluated_operand
+initial_x=128 result=130 final_x=131 eval_count=3 interpretation=macro_re_evaluated_operand
+initial_x=255 result=255 final_x=257 eval_count=2 interpretation=macro_re_evaluated_operand
+initial_x=256 result=255 final_x=258 eval_count=2 interpretation=macro_re_evaluated_operand
