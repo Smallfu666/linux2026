@@ -1,2 +1,4 @@
-Run on Linux x86_64:
+perf unavailable on this WSL2 x86_64 image (`perf: command not found`).
+
+Would have run on Linux x86_64:
 perf stat -e cycles,instructions,cache-references,cache-misses,branches,branch-misses ./bench --type=bst --key-count 100000 --lookups 1000000 --reps 5 --csv

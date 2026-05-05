@@ -1,3 +1,5 @@
-Run on Linux x86_64:
+perf unavailable on this WSL2 x86_64 image (`perf: command not found`).
+
+Would have run on Linux x86_64:
 PROGRAM_LEN=32768 STEPS=1000000 REPS=10 CSV=1 perf stat -e cycles,instructions,branches,branch-misses,cache-references,cache-misses ./bench_cgoto predictable
 PROGRAM_LEN=32768 STEPS=1000000 REPS=10 CSV=1 perf stat -e cycles,instructions,branches,branch-misses,cache-references,cache-misses ./bench_cgoto random

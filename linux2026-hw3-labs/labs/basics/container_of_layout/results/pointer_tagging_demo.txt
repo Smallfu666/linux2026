@@ -1,11 +1,11 @@
 aligned node sizeof=32 alignof=8
 packed wrapper sizeof=33 alignof=1 offset(node)=1
 
-normal parent @ 0x14ce060c0 low_bits=0
-normal child  @ 0x14ce060e0 low_bits=0
-normal tagged value=0x14ce060c1 recovered_parent=0x14ce060c0 color=1
+normal parent @ 0x5855be04e2a0 low_bits=0
+normal child  @ 0x5855be04e2d0 low_bits=0
+normal tagged value=0x5855be04e2a1 recovered_parent=0x5855be04e2a0 color=1
 
-packed parent pseudo-node @ 0x14ce06041 low_bits=0x1
-packed child pseudo-node  @ 0x14ce05cf1 low_bits=0x1
-packed tagged value=0x14ce06041 recovered_parent=0x14ce06040 color=1
+packed parent pseudo-node @ 0x5855be04e301 low_bits=0x1
+packed child pseudo-node  @ 0x5855be04e331 low_bits=0x1
+packed tagged value=0x5855be04e301 recovered_parent=0x5855be04e300 color=1
 packed_recovery_ok=no
