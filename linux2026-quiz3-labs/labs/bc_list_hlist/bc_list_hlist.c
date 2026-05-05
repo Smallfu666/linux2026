@@ -6,6 +6,10 @@
 #include <string.h>
 #include <sys/stat.h>
 
+#ifndef PATH_MAX
+#define PATH_MAX 4096
+#endif
+
 #define LIST_POISON1 ((void *)0x100100UL)
 #define LIST_POISON2 ((void *)0x200200UL)
 
